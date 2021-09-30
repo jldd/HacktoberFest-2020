@@ -1,6 +1,7 @@
 import java.util.*;
 class Factorial
 {
+    // Metodo principal del programa
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -20,7 +21,7 @@ class Factorial
 
         sc.close();
     }
-
+    //Metodo que calcula el factorial
     public static int factorial(int num)
     {
         int factorial = 1;
